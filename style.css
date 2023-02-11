@@ -12,7 +12,7 @@ a {
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-color: hsl(225, 100%, 94%);
-    min-height: 85vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
