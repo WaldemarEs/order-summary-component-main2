@@ -4,9 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
-a {
-    text-decoration: none;
+.cambio a {
     color: hsl(245, 75%, 52%);
 }
 
