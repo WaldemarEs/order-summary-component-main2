@@ -7,6 +7,7 @@
 
 a {
     text-decoration: none;
+    color: hsl(245, 75%, 52%);
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 }
 
 .tarjeta {
-    background-color: hsl(225, 100%, 98%);
+    background-color: #ffffff;
     padding: 0;
     border-radius: 16px;
     text-align: center;
@@ -41,28 +42,32 @@ body {
 }
 
 .texto h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 800;
     padding: 1rem .6rem;
     color: hsl(223, 47%, 23%)
 }
 
 .texto p {
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     padding: 0rem 2.8rem;
     color: hsl(224, 23%, 55%);
 }
 
 .barra {
-    padding: 2rem 1rem;
+    border-radius: 12px;
+    padding: 1.3rem .2rem;
+    margin: 1.4rem 3.2rem;
     display: flex;
     justify-content: space-around;
+    background-color: #f8f9fe;
 }
 
 .cambio {
     font-size: 0.86rem;
     display: flex;
     align-items: center;
+    font-weight: 800;
 }
 
 .icono-texto {
@@ -74,18 +79,38 @@ body {
     width: 70%;
     margin-right: 1rem;
 }
-.texto-barra h4{
-    color: hsl(223, 47%, 23%)
+
+.texto-barra h2 {
+    font-size: 1.1em;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
 }
-.texto-barra p{
+
+.texto-barra p {
+    line-height: 1.8rem;
     color: hsl(224, 23%, 55%);
 }
-.attribution {
-    font-size: 11px;
-    text-align: center;
+
+.boton {
+
+    background-color: #382ae1;
+    border-radius: 10px;
+    padding: 0.8rem .2rem;
+    margin: 0 3.2rem;
+    font-weight: 700;
+    font-size: 0.9em;
+    box-shadow: 0 10px #f8f9fe;
 }
 
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.boton p {
+    color: #fcf7ff;
 }
+
+.pfinal {
+    margin: 1.4rem 0 2.6em 0;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: hsl(223, 47%, 23%);
+
+}
+
