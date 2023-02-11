@@ -35,17 +35,20 @@ body {
 }
 
 .img-music img {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    margin-bottom: .6rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 1.6rem;
 }
 
 .texto h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
     padding: 1rem .6rem;
     color: hsl(223, 47%, 23%)
 }
 
 .texto p {
+    line-height: 1.5rem;
     padding: 0rem 2.8rem;
     color: hsl(224, 23%, 55%);
 }
@@ -57,7 +60,7 @@ body {
 }
 
 .cambio {
-    font-size: 0.92rem;
+    font-size: 0.86rem;
     display: flex;
     align-items: center;
 }
